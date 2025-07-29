@@ -1,0 +1,25 @@
+{
+    "name": "iop/module-admin-command",
+    "description": "A Magento 2 module that provides a robust CLI command to set an admin user's password.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Igor Ocheretnyi"
+        }
+    ],
+    "require": {
+        "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Iop\\Admin\\": ""
+        }
+    }
+}
